@@ -1,0 +1,60 @@
+@require './_normalize.css';
+@require './_fonts.styl';
+@require './_variables.styl';
+
+body, html
+  margin 0
+  padding 0
+  height 100%
+
+body
+  background $colors-bg-default
+  color $colors-text-default
+  font-family 'Cabin', Arial, Helvetica, sans-serif
+  font-size 16px
+  overflow hidden
+  position relative
+  min-width 320px
+
+a
+  color inherit
+  text-decoration underline
+
+.main
+  display flex
+  align-items center
+  justify-content center
+
+.content
+  font-size 1.33em
+  text-align center
+  padding 1em
+
+.power-level
+  .icon
+    width 280px
+    fill $colors-bg-default-shade
+  
+  figcaption
+    margin-top 1em
+
+.footer
+  font-size .5em
+  margin 1em auto
+  position absolute
+  bottom 0
+  left auto
+  right auto
+  text-align center
+
+  .attribution
+    margin-top 1em
+  
+  .copyright
+    margin-top .333em
+
+  .logo
+    fill $colors-bg-default-shade
+    display block
+    margin 0 auto
+    width 48px
