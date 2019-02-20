@@ -8,4 +8,4 @@ VERSION=$(cat package.json | \
 
 echo "Building image with version ${VERSION}"
 
-docker build -t unstatic.io/website:${VERSION} .
+docker build -t unstaticio/website:${VERSION} .

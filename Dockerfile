@@ -1,4 +1,4 @@
-FROM unstatic.io/alpine-nodejs-nginx:8.15.0
+FROM unstaticio/alpine-nodejs-nginx:8.15.0
 
 WORKDIR /data/app
 
